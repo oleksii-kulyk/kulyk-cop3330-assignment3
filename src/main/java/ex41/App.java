@@ -16,7 +16,7 @@ public class App {
     public static File input41 = new File("exercise41_input.txt");
     public static Scanner input;
 
-    public static void main(String Args[]) {
+    public static void main(String[] Args) {
         //try to construct(initialize) object Scanner with the .txt names file
         try {
             input = new Scanner(input41);

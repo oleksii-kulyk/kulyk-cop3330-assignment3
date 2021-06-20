@@ -1,0 +1,21 @@
+@startuml
+
+title exercise 41 - Class Diagram
+
+
+class App {
+  +File input41
+  +Scanner input
+  void main()
+}
+
+class Paser {
+  ArrayList<String> CSVList
+  void read(Scanner input)
+  String parse_CSVLine(String CSVLine)
+  StringBuilder print_CSV(ArrayList<String> list)
+}
+
+App <|-down- Parser: uses
+
+@enduml
