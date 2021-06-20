@@ -1,0 +1,23 @@
+@startuml
+
+title exercise 41 - Class Diagram
+
+
+class App {
+  +File input41
+  +Scanner input
+  void main()
+}
+
+class Names {
+  ArrayList<String> namesList
+  int numOfLines
+  void read_names()
+  void sort_names()
+  void create_file()
+  void print_names()
+}
+
+App <|-down- Names: uses
+
+@enduml
