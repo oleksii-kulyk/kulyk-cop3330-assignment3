@@ -1,0 +1,21 @@
+@startuml
+
+title exercise 45 - Class Diagram
+
+
+class App {
+  +Scanner input
+  void main()
+}
+
+class ReplaceW {
+  String text;
+  String defaultPath
+  void input_text(String path)
+  String replace_word(String lookfor, String replace)
+  void print_text(String path, String lookfor, String replace)
+}
+
+App <|-down- ReplaceW: uses
+
+@enduml
