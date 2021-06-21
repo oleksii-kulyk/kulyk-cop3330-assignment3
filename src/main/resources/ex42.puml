@@ -4,12 +4,12 @@ title exercise 41 - Class Diagram
 
 
 class App {
-  +File input41
+  +File input42
   +Scanner input
   void main()
 }
 
-class Paser {
+class Parser {
   ArrayList<String> CSVList
   void read(Scanner input)
   String parse_CSVLine(String CSVLine)
