@@ -16,7 +16,13 @@ public class App {
     public static Scanner stdinput = new Scanner(System.in);
 
     public static void main (String[] Args){
-
+        //instantiates a helper class
+        //calls a method from the helped class to read the data from the json file into the custom
+        //data structure inside the helper class
+        //loop queries the user for the product name
+        //a method from the helped class looks for matches within the info in the data structure
+        //if the match is found break from the loop
+        //if no match is found keep looping
     }
 
 

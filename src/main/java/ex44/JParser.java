@@ -6,5 +6,6 @@
 package ex44;
 
 public class JParser {
+    //create a java object that can hold the entries from the given json file
 
 }
